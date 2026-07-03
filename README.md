@@ -36,6 +36,8 @@ Final evaluation was run on the test set — 2,700 images held out entirely from
 - Per-class precision and recall range from 0.96 to 1.00, with no class performing substantially worse than the rest
 - The confusion matrix shows that nearly all misclassifications occur between visually similar categories: River and Highway (both long, linear features), Industrial and Residential (both dense built-up areas), and Pasture, AnnualCrop, and HerbaceousVegetation (all variants of open vegetated land). No confusion occurs between visually or semantically unrelated classes, which suggests the model has learned meaningful, generalizable features rather than superficial shortcuts.
 
+![Confusion Matrix](confusion_matrix.png)
+
 ## Project status
 
 Data pipeline, model architecture, both training phases, checkpointing, and full test-set evaluation are complete.
